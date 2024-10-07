@@ -8,7 +8,7 @@ function esperarTeclaParaContinuar(): void {
 }
 
 function limpiarPantalla(): void {
-    process.stdout.write('\x1Bc'); // o '\033c'
+    process.stdout.write('\x1Bc'); // o '\033c' 
 }
 
 function menu() {
